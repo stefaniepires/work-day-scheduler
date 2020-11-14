@@ -1,3 +1,11 @@
+$(document).ready(function() {
+
+//Adding date to header
+var currentTime = moment().format('MMMM Do YYYY, h:mm a');
+$("#currentDay")
+.text(currentTime);
+
+
 //this makes the background gray when a user clicks into the time slot; reverts back to white when they click out
     $('textarea').focus(function(){
         $(this).css('background', "#F2F3F4");
@@ -29,3 +37,4 @@ $("#3 .description").val(localStorage.getItem("3"));
 $("#4 .description").val(localStorage.getItem("4"));
 $("#5 .description").val(localStorage.getItem("5"));
 
+});
