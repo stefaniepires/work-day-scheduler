@@ -10,6 +10,7 @@ textarea{
   resize: none;
   color: #000000;
   border-left: 1px solid black;
+  border-right: 1px solid black;
   padding: 10px;
 }
 
@@ -27,7 +28,7 @@ textarea{
 
 .time-block{
   text-align: center;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 .row {
@@ -48,21 +49,26 @@ textarea{
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #f1aca9;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #8ec28e;
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: .5px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #0899b9;
   color: white;
+}
+
+.saveBtn:hover {
+  background-color: #22aece;
+
 }
 
 .saveBtn i:hover {
@@ -71,9 +77,25 @@ textarea{
 }
 
 .fa {
-  position: absolute;
-  top: 10%;
-  left: 28%;
+  position: relative;
+  align-self:center;
   font-size: 50px;
+  padding: 5px;
 }
 
+
+/* Media query for phones */
+@media screen and (max-width: 1017px) {
+
+  div {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 100%;
+    line-height: 0;
+  }
+  .fa {
+    font-size:40px;
+    position: absolute;
+  }
+ 
+}  
