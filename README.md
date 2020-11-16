@@ -19,4 +19,4 @@ https://steftinsley.github.io/work-day-scheduler/
 
 Mockup of the site is below:
 
-![alt text](https://github.com/steftinsley/code-quiz/blob/master/assets/screenshot%20of%20code%20quiz.png)
+![alt text](https://github.com/steftinsley/work-day-scheduler/blob/main/assets/screenshot.png)
