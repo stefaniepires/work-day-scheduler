@@ -11,7 +11,7 @@
  * When time block is current, it will show as red 
 
 
-You can preview the quiz live by clicking the link below:
+You can preview the site live by clicking the link below:
 https://steftinsley.github.io/work-day-scheduler/
 
 
