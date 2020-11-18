@@ -17,4 +17,4 @@ https://steftinsley.github.io/work-day-scheduler/
 
 Mockup of the site is below:
 
-![alt text](https://github.com/steftinsley/work-day-scheduler/blob/main/assets/screenshot.png)
+![alt text](https://github.com/steftinsley/work-day-scheduler/blob/main/assets/05-third-party-apis-homework-demo.gif)
